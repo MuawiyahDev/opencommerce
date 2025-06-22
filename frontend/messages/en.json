@@ -1,1 +1,8 @@
-{}
+{
+  "topbar": {
+    "aboutUs": "About Us",
+    "myAccount": "My Account",
+    "wishlist": "Wishlist",
+    "orderTracking": "Order Tracking"
+  }
+}
