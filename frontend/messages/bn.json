@@ -4,5 +4,13 @@
     "myAccount": "আমার অ্যাকাউন্ট",
     "wishlist": "উইশ লিস্ট",
     "orderTracking": "অর্ডার ট্র্যাকিং"
+  },
+  "navbar": {
+    "allCategories": "সব ক্যাটাগরি",
+    "searchPlaceholder": "আইটেম খুঁজুন...",
+    "userInfo": {
+      "greeting": "হ্যালো, সাইন ইন করুন",
+      "account": "আপনার অ্যাকাউন্ট"
+    }
   }
 }

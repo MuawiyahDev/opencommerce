@@ -4,5 +4,13 @@
     "myAccount": "My Account",
     "wishlist": "Wishlist",
     "orderTracking": "Order Tracking"
+  },
+  "navbar": {
+    "allCategories": "All Categories",
+    "searchPlaceholder": "Search for items...",
+    "userInfo": {
+      "greeting": "Hello, Sign In",
+      "account": "Your Account"
+    }
   }
 }

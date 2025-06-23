@@ -4,5 +4,13 @@
     "myAccount": "حسابي",
     "wishlist": "قائمة الأمنيات",
     "orderTracking": "تتبع الطلب"
+  },
+  "navbar": {
+    "allCategories": "جميع الفئات",
+    "searchPlaceholder": "ابحث عن المنتجات...",
+    "userInfo": {
+      "greeting": "مرحبًا، سجل الدخول",
+      "account": "حسابك"
+    }
   }
 }
