@@ -12,5 +12,15 @@
       "greeting": "Hello, Sign In",
       "account": "Your Account"
     }
+  },
+  "menu": {
+    "home": "Home",
+    "products": "Products",
+    "categories": "Categories",
+    "brands": "Brands",
+    "contactUs": "Contact Us",
+    "coupons": "Coupons",
+    "blog": "Blog",
+    "hotline": "Hotline"
   }
 }
