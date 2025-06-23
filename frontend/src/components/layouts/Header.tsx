@@ -1,7 +1,7 @@
 import React from "react";
-import Topbar from "./Topbar";
-import Navbar from "./Navbar";
-import Menu from "./Menu";
+import Topbar from "./header/Topbar";
+import Navbar from "./header/Navbar";
+import Menu from "./header/Menu";
 
 const Header = () => {
   return (
