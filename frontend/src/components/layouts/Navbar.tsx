@@ -13,7 +13,7 @@ const Navbar = () => {
   return (
     <nav className="py-5 border-b">
       <div className="container">
-        <div className="flex items-center justify-between gap-5 flex-col md:flex-row">
+        <div className="flex items-center justify-between gap-5">
           <div>
             <Image
               src="/logo.svg"
@@ -24,12 +24,14 @@ const Navbar = () => {
             />
           </div>
 
-          <div className="max-w-[500px] w-full">
+          <div className="lg:max-w-[500px] w-full hidden md:block max-w-[400px]">
             <Search />
           </div>
 
-          <div className="hidden lg:flex items-center xl:gap-10 gap-4">
-            <UserInfo />
+          <div className="flex items-center xl:gap-10 gap-4">
+            <div className="hidden lg:block">
+              <UserInfo />
+            </div>
 
             <div className="flex gap-4">
               <BadgeIcon
