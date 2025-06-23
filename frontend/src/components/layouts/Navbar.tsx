@@ -4,8 +4,12 @@ import Search from "./Search";
 import UserInfo from "./UserInfo";
 import { Heart, ShoppingBasket } from "lucide-react";
 import BadgeIcon from "./BadgeIcon";
+import { convertNumberToLocale } from "@/lib/convertNumberToLocale";
+import { useLocale } from "next-intl";
 
 const Navbar = () => {
+  const locale = useLocale();
+
   return (
     <nav className="py-5 border-b">
       <div className="container">
@@ -31,13 +35,13 @@ const Navbar = () => {
               <BadgeIcon
                 href="/wishlist"
                 icon={Heart}
-                count={3}
+                count={convertNumberToLocale(3, locale)}
                 badgeColor="bg-rose-500"
               />
               <BadgeIcon
                 href="/cart"
                 icon={ShoppingBasket}
-                count={5}
+                count={convertNumberToLocale(5, locale)}
                 badgeColor="bg-green-500"
               />
             </div>

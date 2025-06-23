@@ -6,7 +6,7 @@ import { twMerge } from "tailwind-merge";
 interface BadgeIconProps {
   href: string;
   icon: LucideIcon;
-  count?: number;
+  count?: string;
   className?: string;
   badgeColor?: string;
 }
@@ -28,7 +28,7 @@ const BadgeIcon: React.FC<BadgeIconProps> = ({
     >
       <Icon size={20} />
 
-      {count > 0 && (
+      {count && (
         <div
           className={twMerge(
             "absolute -top-[5px] -right-[5px] text-white text-xs w-5 h-5 rounded-full flex items-center justify-center",
