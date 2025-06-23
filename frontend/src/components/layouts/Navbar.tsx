@@ -13,7 +13,7 @@ const Navbar = () => {
   return (
     <nav className="py-5 border-b">
       <div className="container">
-        <div className="flex items-center justify-between gap-3">
+        <div className="flex items-center justify-between gap-5 flex-col md:flex-row">
           <div>
             <Image
               src="/logo.svg"
@@ -28,7 +28,7 @@ const Navbar = () => {
             <Search />
           </div>
 
-          <div className="flex items-center gap-10">
+          <div className="hidden lg:flex items-center xl:gap-10 gap-4">
             <UserInfo />
 
             <div className="flex gap-4">

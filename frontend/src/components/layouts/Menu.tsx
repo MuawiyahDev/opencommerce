@@ -14,7 +14,7 @@ const Menu = () => {
   const t = useTranslations("menu");
 
   return (
-    <div className="border-b py-3">
+    <div className="hidden lg:block border-b py-3">
       <div className="container">
         <div className="flex items-center justify-between gap-5">
           <div>

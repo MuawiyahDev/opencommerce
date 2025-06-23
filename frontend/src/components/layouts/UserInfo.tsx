@@ -12,7 +12,7 @@ const UserInfo = () => {
         <UserRound />
       </div>
 
-      <div>
+      <div className="xl:block hidden">
         <span className="block text-gray-500 text-xs font-semibold mb-0.5">
           {t("greeting")}
         </span>

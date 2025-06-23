@@ -28,11 +28,12 @@ const Topbar = () => {
               href="mailto:info@example.com"
               icon={Mail}
               text="info@example.com"
+              className="hidden sm:flex"
             />
           </div>
 
           <div className="flex items-center">
-            <div className="flex items-center gap-5 text-xs">
+            <div className="hidden lg:flex items-center gap-5 text-xs">
               {TOP_BAR_LINKS.map((link) => (
                 <Link href={link.href} key={link.href}>
                   {t(link.textKey)}
