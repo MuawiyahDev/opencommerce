@@ -1,3 +1,5 @@
+import { Home, LayoutGrid, Search, Truck, UserRound } from "lucide-react";
+
 const TOP_BAR_LINKS = [
   {
     textKey: "aboutUs",
@@ -48,4 +50,27 @@ const MENU_LINKS = [
   },
 ];
 
-export { TOP_BAR_LINKS, MENU_LINKS };
+const MOBILE_BOTTOM_NAV_LINKS = [
+  {
+    icon: Home,
+    href: "/",
+  },
+  {
+    icon: Search,
+    href: "/products",
+  },
+  {
+    icon: LayoutGrid,
+    href: "/categories",
+  },
+  {
+    icon: Truck,
+    href: "/order-tracking",
+  },
+  {
+    icon: UserRound,
+    href: "/profile",
+  },
+];
+
+export { TOP_BAR_LINKS, MENU_LINKS, MOBILE_BOTTOM_NAV_LINKS };

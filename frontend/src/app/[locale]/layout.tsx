@@ -6,6 +6,7 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "../globals.css";
 import Header from "@/components/layouts/Header";
+import MobileBottomNav from "@/components/layouts/MobileBottomNav";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -43,7 +44,10 @@ export default async function LocaleLayout({
       >
         <NextIntlClientProvider>
           <Header />
-          {children}
+
+          <main className="pb-[calc(64px_+_12px_+_20px)]">{children}</main>
+
+          <MobileBottomNav />
         </NextIntlClientProvider>
       </body>
     </html>
