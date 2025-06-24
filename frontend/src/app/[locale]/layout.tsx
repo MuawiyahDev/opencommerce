@@ -45,7 +45,7 @@ export default async function LocaleLayout({
         <NextIntlClientProvider>
           <Header />
 
-          <main className="pb-[calc(64px_+_12px_+_20px)]">{children}</main>
+          <main className="pb-[calc(64px_+_12px_+_20px)] mt-5">{children}</main>
 
           <MobileBottomNav />
         </NextIntlClientProvider>
