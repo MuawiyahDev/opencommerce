@@ -22,5 +22,11 @@
     "coupons": "Coupons",
     "blog": "Blog",
     "hotline": "Hotline"
+  },
+  "home": {
+    "featuredCategory": {
+      "title": "Featured Category",
+      "subtitle": "Get your desired product from featured category"
+    }
   }
 }
