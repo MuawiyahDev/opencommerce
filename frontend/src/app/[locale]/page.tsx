@@ -5,6 +5,7 @@ import BannerSlider from "@/components/feature/home/BannerSlider";
 import FeaturedCategory from "@/components/feature/home/FeaturedCategory";
 import FeaturedProducts from "@/components/feature/home/FeaturedProducts";
 import ValueProps from "@/components/feature/home/ValueProps";
+import Brands from "@/components/feature/home/Brands";
 
 const HomePage = () => {
   const valuePropsData = [
@@ -36,6 +37,7 @@ const HomePage = () => {
       <ValueProps items={valuePropsData} />
       <FeaturedCategory />
       <FeaturedProducts />
+      <Brands />
     </>
   );
 };
