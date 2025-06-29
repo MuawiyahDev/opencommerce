@@ -23,6 +23,12 @@
     "blog": "ব্লগ",
     "hotline": "হটলাইন"
   },
+  "footer": {
+    "shop": "দোকান",
+    "company": "প্রতিষ্ঠান",
+    "contact": "যোগাযোগ",
+    "allRightsReserved": "সর্বস্বত্ব সংরক্ষিত"
+  },
   "home": {
     "featuredCategory": {
       "title": "ফিচার্ড ক্যাটাগরি",

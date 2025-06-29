@@ -23,6 +23,12 @@
     "blog": "مدونة",
     "hotline": "الخط الساخن"
   },
+  "footer": {
+    "shop": "المتجر",
+    "company": "الشركة",
+    "contact": "اتصل بنا",
+    "allRightsReserved": "جميع الحقوق محفوظة"
+  },
   "home": {
     "featuredCategory": {
       "title": "الفئة المميزة",

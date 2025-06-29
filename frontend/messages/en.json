@@ -23,6 +23,12 @@
     "blog": "Blog",
     "hotline": "Hotline"
   },
+  "footer": {
+    "shop": "Shop",
+    "company": "Company",
+    "contact": "Contact",
+    "allRightsReserved": "All rights reserved"
+  },
   "home": {
     "featuredCategory": {
       "title": "Featured Category",
