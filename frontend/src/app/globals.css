@@ -3,6 +3,10 @@
 
 @custom-variant dark (&:is(.dark *));
 
+@custom-variant ms (@media (min-width: 320px) and (max-width: 374px));
+@custom-variant mm (@media (min-width: 375px) and (max-width: 424px));
+@custom-variant ml (@media (min-width: 425px) and (max-width: 639px));
+
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
@@ -52,7 +56,7 @@
   --card-foreground: oklch(0.145 0 0);
   --popover: oklch(1 0 0);
   --popover-foreground: oklch(0.145 0 0);
-  --primary: oklch(76.8% 0.233 130.85);
+  --primary: oklch(0.64 0.21 25);
   --primary-foreground: oklch(0.985 0 0);
   --secondary: oklch(0.97 0 0);
   --secondary-foreground: oklch(0.205 0 0);
@@ -93,18 +97,18 @@
   padding-inline: 1rem;
 
   @variant sm {
-    padding-inline: 2rem;
+    padding-inline: 1rem;
   }
 
   @variant lg {
-    padding-inline: 4rem;
+    padding-inline: 1rem;
   }
 
   @variant xl {
-    padding-inline: 5rem;
+    padding-inline: 1rem;
   }
 
   @variant 2xl {
-    padding-inline: 6rem;
+    padding-inline: 1rem;
   }
 }
