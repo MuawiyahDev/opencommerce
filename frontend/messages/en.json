@@ -27,6 +27,10 @@
     "featuredCategory": {
       "title": "Featured Category",
       "subtitle": "Get your desired product from featured category"
+    },
+    "featuredProducts": {
+      "title": "Featured Products",
+      "subtitle": "Must-Have Items — Popular, trusted, and ready to upgrade your everyday."
     }
   }
 }
