@@ -7,6 +7,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "../globals.css";
 import Header from "@/components/layouts/Header";
 import MobileBottomNav from "@/components/layouts/MobileBottomNav";
+import Footer from "@/components/layouts/Footer";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -44,9 +45,8 @@ export default async function LocaleLayout({
       >
         <NextIntlClientProvider>
           <Header />
-
           <main className="pb-[calc(64px_+_12px_+_20px)] mt-5">{children}</main>
-
+          <Footer />
           <MobileBottomNav />
         </NextIntlClientProvider>
       </body>
