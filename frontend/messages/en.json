@@ -31,6 +31,10 @@
     "featuredProducts": {
       "title": "Featured Products",
       "subtitle": "Must-Have Items — Popular, trusted, and ready to upgrade your everyday."
+    },
+    "brands": {
+      "title": "Our Brands",
+      "subtitle": "Discover the names that power your lifestyle."
     }
   }
 }
