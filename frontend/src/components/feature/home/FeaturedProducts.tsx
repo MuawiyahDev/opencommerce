@@ -15,7 +15,7 @@ const FeaturedProducts = () => {
           </p>
         </div>
 
-        <div className="grid xl:grid-cols-5 lg:grid-cols-4 sm:grid-cols-3 mm:grid-cols-2 ml:grid-cols-2 mm:gap-2 gap-3 sm:gap-4 mt-12">
+        <div className="grid xl:grid-cols-5 lg:grid-cols-4 sm:grid-cols-3 grid-cols-2 gap-2 sm:gap-4 mt-12">
           {Array.from({ length: 5 }).map((_, index) => (
             <ProductCard
               key={index}
