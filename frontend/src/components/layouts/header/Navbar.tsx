@@ -1,3 +1,5 @@
+"use client";
+
 import Image from "next/image";
 import React from "react";
 import Search from "./Search";
@@ -6,12 +8,20 @@ import { Heart, ShoppingBasket } from "lucide-react";
 import BadgeIcon from "./BadgeIcon";
 import { convertNumberToLocale } from "@/lib/convertNumberToLocale";
 import { useLocale } from "next-intl";
+import { useScroll } from "@/hooks/useScroll";
+import { twMerge } from "tailwind-merge";
 
 const Navbar = () => {
   const locale = useLocale();
+  const { isScrolled } = useScroll(100);
 
   return (
-    <nav className="py-5 border-b">
+    <nav
+      className={twMerge(
+        "py-5 bg-white sticky top-0 z-50 transition",
+        isScrolled ? "shadow-custom" : "border-b"
+      )}
+    >
       <div className="container">
         <div className="flex items-center justify-between gap-5">
           <div>
