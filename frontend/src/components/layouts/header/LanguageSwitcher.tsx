@@ -14,9 +14,10 @@ import { getLanguageName } from "@/lib/getLanguageName";
 import { ChevronDown } from "lucide-react";
 import { routing, rtlLocales } from "@/i18n/routing";
 import { twMerge } from "tailwind-merge";
-import { Link } from "@/i18n/navigation";
+import { Link, usePathname } from "@/i18n/navigation";
 
 const LanguageSwitcher = () => {
+  const pathname = usePathname();
   const locale = useLocale();
   const dir = rtlLocales.includes(locale) ? "rtl" : "ltr";
 
@@ -44,7 +45,7 @@ const LanguageSwitcher = () => {
       </DropdownMenuTrigger>
       <DropdownMenuContent>
         {routing.locales.map((lang) => (
-          <Link href="/" locale={lang} key={lang}>
+          <Link href={pathname} locale={lang} key={lang}>
             <DropdownMenuItem
               className={twMerge(
                 "flex items-center gap-2 text-xs",
