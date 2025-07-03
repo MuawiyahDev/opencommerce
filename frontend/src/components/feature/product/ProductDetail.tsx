@@ -2,12 +2,14 @@ import React from "react";
 import { Check, Minus, Plus } from "lucide-react";
 import ProductVariants from "./ProductVariants";
 import Image from "next/image";
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 import { twMerge } from "tailwind-merge";
 import { Button } from "@/components/ui/button";
+import { convertNumberToLocale } from "@/lib/convertNumberToLocale";
 
 const ProductDetail = () => {
-  const t = useTranslations("productDetail");
+  const t = useTranslations();
+  const locale = useLocale();
 
   const images = [
     "/products/1.png",
@@ -89,7 +91,7 @@ const ProductDetail = () => {
 
             <div className="text-green-600 font-semibold flex items-center gap-2">
               <Check size={20} />
-              <span>{t("inStock")}</span>
+              <span>{t("productDetail.inStock")}</span>
             </div>
 
             <ProductVariants
@@ -102,27 +104,35 @@ const ProductDetail = () => {
                 <button className="w-8 h-8 bg-gray-100 text-gray-500 flex items-center justify-center rounded-full">
                   <Minus size={18} />
                 </button>
-                <span className="block text-sm text-center">1</span>
+                <span className="block text-sm text-center">
+                  {convertNumberToLocale(1, locale)}
+                </span>
                 <button className="w-8 h-8 bg-gray-100 text-gray-500 flex items-center justify-center rounded-full">
                   <Plus size={18} />
                 </button>
               </div>
 
-              <Button>Add to cart</Button>
+              <Button>{t("common.addToCart")}</Button>
             </div>
 
             <div className="mt-6 pt-6 border-t">
               <ul className="space-y-3">
                 <li className="text-sm text-gray-500 flex items-center">
-                  <b className="text-foreground w-24 block">{t("inStock")}:</b>{" "}
+                  <b className="text-foreground w-24 block">
+                    {t("productDetail.inStock")}:
+                  </b>{" "}
                   HRYUSG67EG
                 </li>
                 <li className="text-sm text-gray-500 flex items-center">
-                  <b className="text-foreground w-24 block">{t("category")}:</b>{" "}
+                  <b className="text-foreground w-24 block">
+                    {t("productDetail.category")}:
+                  </b>{" "}
                   Fashion
                 </li>
                 <li className="text-sm text-gray-500 flex items-center">
-                  <b className="text-foreground w-24 block">{t("brand")}:</b>{" "}
+                  <b className="text-foreground w-24 block">
+                    {t("productDetail.brand")}:
+                  </b>{" "}
                   KAON
                 </li>
               </ul>
