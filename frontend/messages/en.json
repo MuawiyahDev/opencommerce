@@ -53,6 +53,12 @@
     "size": "Size",
     "sku": "SKU",
     "category": "Category",
-    "brand": "Brand"
+    "brand": "Brand",
+    "productTabs": {
+      "specification": "Specification",
+      "description": "Description",
+      "questions": "Questions",
+      "reviews": "Reviews"
+    }
   }
 }

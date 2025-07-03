@@ -6,7 +6,7 @@ const RelatedProducts = () => {
   const t = useTranslations("productDetail");
 
   return (
-    <div className="mt-28">
+    <div className="mt-14">
       <div className="container">
         <h1 className="text-3xl font-bold">{t("relatedProducts")}</h1>
 

@@ -53,6 +53,12 @@
     "size": "المقاس",
     "sku": "رمز التخزين",
     "category": "الفئة",
-    "brand": "العلامة التجارية"
+    "brand": "العلامة التجارية",
+    "productTabs": {
+      "specification": "المواصفات",
+      "description": "الوصف",
+      "questions": "الأسئلة",
+      "reviews": "المراجعات"
+    }
   }
 }
