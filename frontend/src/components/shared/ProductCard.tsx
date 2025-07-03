@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { Button } from "@/components/ui/button"; // Adjust path based on your setup
+import { useTranslations } from "next-intl";
 
 type ProductCardProps = {
   imageSrc: string;
@@ -21,6 +22,8 @@ const ProductCard = ({
   originalPrice,
   onAddToCart,
 }: ProductCardProps) => {
+  const t = useTranslations("common");
+
   return (
     <div className="border rounded-md md:p-4 sm:p-3 p-2">
       <Link href={href}>
@@ -53,7 +56,7 @@ const ProductCard = ({
         </div>
 
         <Button className="w-full" onClick={onAddToCart}>
-          Add to cart
+          {t("addToCart")}
         </Button>
       </div>
     </div>

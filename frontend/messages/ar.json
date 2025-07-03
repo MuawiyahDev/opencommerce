@@ -1,4 +1,7 @@
 {
+  "common": {
+    "addToCart": "أضف إلى السلة"
+  },
   "topbar": {
     "aboutUs": "من نحن",
     "myAccount": "حسابي",

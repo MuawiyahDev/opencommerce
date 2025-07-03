@@ -1,4 +1,7 @@
 {
+  "common": {
+    "addToCart": "Add to cart"
+  },
   "topbar": {
     "aboutUs": "About Us",
     "myAccount": "My Account",

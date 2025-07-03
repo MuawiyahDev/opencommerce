@@ -1,4 +1,7 @@
 {
+  "common": {
+    "addToCart": "কার্টে যোগ করুন"
+  },
   "topbar": {
     "aboutUs": "আমাদের সম্পর্কে",
     "myAccount": "আমার অ্যাকাউন্ট",
