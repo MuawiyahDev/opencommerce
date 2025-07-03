@@ -42,5 +42,14 @@
       "title": "Our Brands",
       "subtitle": "Discover the names that power your lifestyle."
     }
+  },
+  "productDetail": {
+    "relatedProducts": "Related Products",
+    "inStock": "In stock",
+    "color": "Color",
+    "size": "Size",
+    "sku": "SKU",
+    "category": "Category",
+    "brand": "Brand"
   }
 }
