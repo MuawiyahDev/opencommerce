@@ -19,9 +19,9 @@ const FeaturedProducts = () => {
           {Array.from({ length: 5 }).map((_, index) => (
             <ProductCard
               key={index}
-              imageSrc="/products/1.jpg"
-              title="TACVASEN Mens Bomber Jacket Lightweight Casual Spring Fall Windbreaker Zip Up Coat with Pocket"
-              href="/products/1"
+              imageSrc={`/products/${index + 1}.png`}
+              title="Full Sleeve Hoodie Jacket Full Sleeve Hoodie Jacket"
+              href="/product/1"
               price={300}
               originalPrice={340}
             />

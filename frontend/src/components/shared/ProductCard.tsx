@@ -22,21 +22,21 @@ const ProductCard = ({
   onAddToCart,
 }: ProductCardProps) => {
   return (
-    <div className="border rounded-md p-4">
+    <div className="border rounded-md md:p-4 sm:p-3 p-2">
       <Link href={href}>
         <Image
           src={imageSrc}
           alt={alt}
           width={200}
           height={250}
-          className="w-full xl:h-[275px] lg:h-[230px] md:h-[225px] h-[160px] ml:h-[175px] object-cover object-top rounded-md"
+          className="w-full xl:h-[275px] lg:h-[230px] md:h-[225px] h-[160px] ml:h-[175px] object-cover object-top rounded-md bg-gray-100"
         />
       </Link>
 
       <div>
         <Link
           href={href}
-          className="font-medium block mt-6 text-sm sm:text-base"
+          className="font-medium block md:mt-5 mt-3 sm:mt-4 text-sm sm:text-base"
         >
           {title}
         </Link>
