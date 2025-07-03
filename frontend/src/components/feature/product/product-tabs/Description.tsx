@@ -69,8 +69,8 @@ const Description = () => {
           <a href="https://www.startech.com.bd/aoc-monitor">AOC Monitor</a> to
           purchase. Order Online Or Visit your Nearest{" "}
           <a href="https://www.startech.com.bd/">Star Tech Shop </a>to get yours
-          at lowest price. The AOC AGON PRO AG276FK 27" 520Hz FHD Fast IPS
-          Gaming Monitor comes with a 3-Years Warranty.
+          at lowest price. The AOC AGON PRO AG276FK 27 520Hz FHD Fast IPS Gaming
+          Monitor comes with a 3-Years Warranty.
         </p>
       </div>
     </div>
