@@ -60,5 +60,33 @@
       "questions": "الأسئلة",
       "reviews": "المراجعات"
     }
+  },
+  "auth": {
+    "common": {
+      "email": "البريد الإلكتروني",
+      "emailPlaceholder": "m@example.com",
+      "password": "كلمة المرور",
+      "fullName": "الاسم الكامل",
+      "fullNamePlaceholder": "جون دو",
+      "signIn": "تسجيل الدخول",
+      "signUp": "إنشاء حساب"
+    },
+    "login": {
+      "title": "تسجيل الدخول إلى حسابك",
+      "description": "أدخل بريدك الإلكتروني أدناه لتسجيل الدخول",
+      "forgotPassword": "هل نسيت كلمة المرور؟",
+      "loginBtn": "تسجيل الدخول",
+      "noAccount": "ليس لديك حساب؟"
+    },
+    "register": {
+      "title": "إنشاء حساب",
+      "description": "أدخل معلوماتك أدناه لإنشاء حسابك",
+      "emailNote": "سنستخدم هذا للتواصل معك. لن نشارك بريدك مع أي شخص.",
+      "passwordHint": "يجب أن يكون ٨ أحرف على الأقل.",
+      "confirmPassword": "تأكيد كلمة المرور",
+      "confirmPasswordHint": "يرجى تأكيد كلمة المرور.",
+      "createAccountBtn": "إنشاء حساب",
+      "alreadyHaveAccount": "هل لديك حساب بالفعل؟"
+    }
   }
 }

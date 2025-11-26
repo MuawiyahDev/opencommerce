@@ -60,5 +60,33 @@
       "questions": "Questions",
       "reviews": "Reviews"
     }
+  },
+  "auth": {
+    "common": {
+      "email": "Email",
+      "emailPlaceholder": "m@example.com",
+      "password": "Password",
+      "fullName": "Full Name",
+      "fullNamePlaceholder": "John Doe",
+      "signIn": "Sign in",
+      "signUp": "Sign up"
+    },
+    "login": {
+      "title": "Login to your account",
+      "description": "Enter your email below to login to your account",
+      "forgotPassword": "Forgot your password?",
+      "loginBtn": "Login",
+      "noAccount": "Don't have an account?"
+    },
+    "register": {
+      "title": "Create an account",
+      "description": "Enter your information below to create your account",
+      "emailNote": "We’ll use this to contact you. We will not share your email with anyone else.",
+      "passwordHint": "Must be at least 8 characters long.",
+      "confirmPassword": "Confirm Password",
+      "confirmPasswordHint": "Please confirm your password.",
+      "createAccountBtn": "Create Account",
+      "alreadyHaveAccount": "Already have an account?"
+    }
   }
 }

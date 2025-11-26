@@ -60,5 +60,33 @@
       "questions": "প্রশ্ন",
       "reviews": "রিভিউ"
     }
+  },
+  "auth": {
+    "common": {
+      "email": "ইমেইল",
+      "emailPlaceholder": "m@example.com",
+      "password": "পাসওয়ার্ড",
+      "fullName": "পুরো নাম",
+      "fullNamePlaceholder": "জন ডো",
+      "signIn": "লগইন করুন",
+      "signUp": "রেজিস্টার করুন"
+    },
+    "login": {
+      "title": "আপনার অ্যাকাউন্টে লগইন করুন",
+      "description": "লগইন করতে নিচে আপনার ইমেইল লিখুন",
+      "forgotPassword": "পাসওয়ার্ড ভুলে গেছেন?",
+      "loginBtn": "লগইন",
+      "noAccount": "অ্যাকাউন্ট নেই?"
+    },
+    "register": {
+      "title": "একটি অ্যাকাউন্ট তৈরি করুন",
+      "description": "অ্যাকাউন্ট তৈরি করতে নিচে আপনার তথ্য লিখুন",
+      "emailNote": "আমরা আপনার সাথে যোগাযোগ করতে এটি ব্যবহার করব। আপনার ইমেইল অন্য কারও সাথে শেয়ার করা হবে না।",
+      "passwordHint": "অন্তত ৮ অক্ষরের হতে হবে।",
+      "confirmPassword": "পাসওয়ার্ড নিশ্চিত করুন",
+      "confirmPasswordHint": "আপনার পাসওয়ার্ডটি নিশ্চিত করুন।",
+      "createAccountBtn": "অ্যাকাউন্ট তৈরি করুন",
+      "alreadyHaveAccount": "আগেই অ্যাকাউন্ট আছে?"
+    }
   }
 }
