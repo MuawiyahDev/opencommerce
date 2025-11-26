@@ -3,19 +3,14 @@ import { notFound } from "next/navigation";
 import { routing, rtlLocales } from "@/i18n/routing";
 
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Geist } from "next/font/google";
 import "../globals.css";
 import Header from "@/components/layouts/Header";
 import MobileBottomNav from "@/components/layouts/MobileBottomNav";
 import Footer from "@/components/layouts/Footer";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
+const font = Geist({
+  variable: "--font-primary",
   subsets: ["latin"],
 });
 
@@ -40,9 +35,7 @@ export default async function LocaleLayout({
 
   return (
     <html lang={locale} dir={dir}>
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
+      <body className={`${font.variable} antialiased`}>
         <NextIntlClientProvider>
           <Header />
           <main className="pb-[calc(64px_+_12px_+_20px)] mt-5">{children}</main>
