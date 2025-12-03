@@ -88,5 +88,29 @@
       "createAccountBtn": "إنشاء حساب",
       "alreadyHaveAccount": "هل لديك حساب بالفعل؟"
     }
+  },
+  "account": {
+    "title": "حسابي",
+    "sidebar": {
+      "welcome": "مرحبًا،",
+      "dashboard": "لوحة التحكم",
+      "orders": "الطلبات",
+      "addresses": "العناوين",
+      "personalInfo": "المعلومات الشخصية",
+      "wishlist": "قائمة الرغبات",
+      "changePassword": "تغيير كلمة المرور",
+      "logout": "تسجيل الخروج"
+    },
+    "dashboard": {
+      "totalSpent": "إجمالي الإنفاق",
+      "totalOrders": "إجمالي الطلبات",
+      "averageSpendPerOrder": "متوسط الإنفاق لكل طلب",
+      "averageSpendPerMonth": "متوسط الإنفاق الشهري",
+      "pendingDeliveries": "التسليمات المعلقة",
+      "ordersDelivered": "الطلبات المسلمة",
+      "ordersReturned": "الطلبات المعادة",
+      "itemsInCart": "العناصر في السلة",
+      "itemsInWishlists": "العناصر في قوائم الرغبات"
+    }
   }
 }

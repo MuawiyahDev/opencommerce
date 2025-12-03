@@ -1,4 +1,14 @@
-import { Home, LayoutGrid, Search, Truck, UserRound } from "lucide-react";
+import {
+  Database,
+  Heart,
+  Home,
+  LayoutDashboard,
+  LayoutGrid,
+  Lock,
+  Search,
+  Truck,
+  UserRound,
+} from "lucide-react";
 
 const TOP_BAR_LINKS = [
   {
@@ -73,4 +83,42 @@ const MOBILE_BOTTOM_NAV_LINKS = [
   },
 ];
 
-export { TOP_BAR_LINKS, MENU_LINKS, MOBILE_BOTTOM_NAV_LINKS };
+const CUSTOMER_ACCOUNT_SIDEBAR_LINKS = [
+  {
+    textKey: "dashboard",
+    href: "/account",
+    icon: LayoutDashboard,
+  },
+  {
+    textKey: "personalInfo",
+    href: "/account/personal-info",
+    icon: UserRound,
+  },
+  {
+    textKey: "orders",
+    href: "/account/orders",
+    icon: Database,
+  },
+  {
+    textKey: "wishlist",
+    href: "/account/wishlist",
+    icon: Heart,
+  },
+  {
+    textKey: "changePassword",
+    href: "/account/change-password",
+    icon: Lock,
+  },
+  {
+    textKey: "addresses",
+    href: "/account/addresses",
+    icon: Home,
+  },
+];
+
+export {
+  TOP_BAR_LINKS,
+  MENU_LINKS,
+  MOBILE_BOTTOM_NAV_LINKS,
+  CUSTOMER_ACCOUNT_SIDEBAR_LINKS,
+};

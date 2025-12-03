@@ -88,5 +88,29 @@
       "createAccountBtn": "অ্যাকাউন্ট তৈরি করুন",
       "alreadyHaveAccount": "আগেই অ্যাকাউন্ট আছে?"
     }
+  },
+  "account": {
+    "title": "আমার অ্যাকাউন্ট",
+    "sidebar": {
+      "welcome": "স্বাগতম,",
+      "dashboard": "ড্যাশবোর্ড",
+      "orders": "অর্ডারসমূহ",
+      "addresses": "ঠিকানা",
+      "personalInfo": "ব্যক্তিগত তথ্য",
+      "wishlist": "উইশলিস্ট",
+      "changePassword": "পাসওয়ার্ড পরিবর্তন",
+      "logout": "লগআউট"
+    },
+    "dashboard": {
+      "totalSpent": "মোট খরচ",
+      "totalOrders": "মোট অর্ডার",
+      "averageSpendPerOrder": "প্রতি অর্ডারে গড় খরচ",
+      "averageSpendPerMonth": "মাসে গড় খরচ",
+      "pendingDeliveries": "মুলতুবি ডেলিভারি",
+      "ordersDelivered": "ডেলিভারি সম্পন্ন অর্ডার",
+      "ordersReturned": "ফেরত অর্ডার",
+      "itemsInCart": "কার্টে আইটেমসমূহ",
+      "itemsInWishlists": "উইশলিস্টে আইটেমসমূহ"
+    }
   }
 }

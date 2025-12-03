@@ -88,5 +88,29 @@
       "createAccountBtn": "Create Account",
       "alreadyHaveAccount": "Already have an account?"
     }
+  },
+  "account": {
+    "title": "My account",
+    "sidebar": {
+      "welcome": "Welcome,",
+      "dashboard": "Dashboard",
+      "orders": "Orders",
+      "addresses": "Addresses",
+      "personalInfo": "Personal Info",
+      "wishlist": "Wishlist",
+      "changePassword": "Change Password",
+      "logout": "Logout"
+    },
+    "dashboard": {
+      "totalSpent": "Total Spent",
+      "totalOrders": "Total Orders",
+      "averageSpendPerOrder": "Average Spend Per Order",
+      "averageSpendPerMonth": "Average Spend Per Month",
+      "pendingDeliveries": "Pending Deliveries",
+      "ordersDelivered": "Orders Delivered",
+      "ordersReturned": "Orders Returned",
+      "itemsInCart": "Items in Cart",
+      "itemsInWishlists": "Items in Wishlists"
+    }
   }
 }
