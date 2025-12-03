@@ -9,7 +9,7 @@ const MobileBottomNav = () => {
   const pathname = usePathname();
 
   return (
-    <div className="fixed bottom-3 left-0 right-0 z-50 flex items-center justify-center md:hidden container">
+    <div className="fixed bottom-3 left-0 right-0 z-50 flex items-center justify-center lg:hidden max-w-md container">
       <div className="w-full shadow-custom rounded-full bg-white p-3">
         <div className="flex items-center justify-between gap-3">
           {MOBILE_BOTTOM_NAV_LINKS.map((link) => (
